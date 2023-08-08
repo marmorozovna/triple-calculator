@@ -11,11 +11,8 @@ public class _Main {
         sc = new Scanner (System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
-        int result = sum(x, y);
-        printResult(x, y, result, "сложение");
-        result = deduct(x, y);
-        printResult(x, y, result, "вычитание");
-        result = multiply(x, y);
-        printResult(x, y, result, "умножение");
+        printResult(x, y, sum(x, y), "сложение");
+        printResult(x, y, deduct(x, y), "вычитание");
+        printResult(x, y, multiply(x, y), "умножение");
     }
 }
