@@ -8,11 +8,11 @@ import static ru.morozevich.triplecalculator.util.Calculator.*;
 public class _Main {
     public static void main(String[] args) {
         Scanner sc;
-        sc = new Scanner (System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-        printResult(x, y, sum(x, y), "сложение");
-        printResult(x, y, deduct(x, y), "вычитание");
-        printResult(x, y, multiply(x, y), "умножение");
+        sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        printResult(num1, num2, sum(num1, num2), "сложение");
+        printResult(num1, num2, deduct(num1, num2), "вычитание");
+        printResult(num1, num2, multiply(num1, num2), "умножение");
     }
 }
